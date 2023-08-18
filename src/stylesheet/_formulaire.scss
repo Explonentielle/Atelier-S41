@@ -1,0 +1,35 @@
+.formulaire {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+
+    input {
+        margin-bottom: 3rem;
+        min-height: 50px;
+    }
+
+    .formButton {
+        margin-top: 5rem;
+        width: 30%;
+
+        @media screen and (max-width: 768px) {
+            width: 50%;
+        }
+    }
+
+}
+
+.mapContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .mail {
+        color: black;
+    }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+}

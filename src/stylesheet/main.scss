@@ -1,0 +1,150 @@
+@import "mixins";
+@import "reset";
+@import "header";
+@import "footer";
+@import "components";
+@import "formulaire";
+@import "projets";
+@import "missions";
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@100&display=swap');
+
+
+* {
+    font-family: 'REM', sans-serif;
+}
+
+.Home {
+    position: relative;
+
+    .background {
+        height: 100vh;
+        background-size: cover;
+        background-image: url("../../public/media/Acceuil/background.webp");
+        background-repeat: no-repeat;
+        z-index: -1;
+        top: 0;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .container {
+        background-color: rgb(255, 255, 255);
+        padding: 2vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .hexaContainer {
+            margin: 5vh 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0;
+            min-width: 75vw;
+
+            li {
+                flex-basis: 29%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 2rem 2rem;
+
+                @media screen and (max-width: 768px) {
+                    flex-basis: 100%;
+                }
+                .hexa {
+                    height: 25vh;
+                    margin-bottom: 5rem;
+
+                    @media screen and (max-width: 768px) {
+                        height: 20vh;
+                    }
+                }
+            }
+        }
+
+
+        .herobaner {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            margin: 5vh 0;
+            min-width: 75vw;
+
+            h1 {
+                font-size: calc(3rem + 3vw);
+                color: #000;
+                margin: 0;
+                text-transform: uppercase;
+                font-weight: bold;
+                letter-spacing: -0.2rem;
+            }
+
+            p {
+                font-size: calc(0.7rem + 1vw);
+                color: #000;
+                margin: 0;
+            }
+
+            img {
+                height: 10vw;
+            }
+        }
+    }
+}
+
+
+.hexa {
+    height: 25vh;
+
+    @media screen and (max-width: 768px) {
+        height: 15vh;
+    }
+}
+
+.generique {
+    text-align: left;
+    margin-top: 20vh;
+    color: black;
+    padding: 0% 20%;
+    line-height: 3rem;
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: 1024px) {
+        padding: 0% 5%;
+    }
+
+    .title {
+        font-size: calc(2.5rem + 2.5vw);
+    }
+
+    p {
+        margin: 5rem 0;
+    }
+
+    .aboutImg {
+        display: flex;
+        align-items: center;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+        }
+
+        img {
+            margin: 2rem;
+        }
+
+        h1 {
+            margin: 2rem;
+            line-height: 7rem;
+            font-size: calc(1.5rem + 2vw);
+
+            @media screen and (max-width: 1024px) {
+                line-height: 4rem;
+            }
+        }
+    }
+}
+
+

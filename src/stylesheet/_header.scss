@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+
+    .logo {
+        height: calc(1.5rem + 6vh);
+        color: white;
+        cursor: pointer;
+    }
+    
+    .menuContainer {
+        display: flex;
+        align-items: center;
+
+        .menu {
+            background:transparent;
+            color: black;
+            min-width: 40vw;
+            align-items: center;
+            justify-content: center ;
+
+            li{
+                p{
+                    font-size: 1.2rem;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}
+
+.OpenMenu {
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-weight: 900;
+    background-color:  rgba(255, 255, 255, 0.9);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.headerBtn {
+    width: 50vw;
+    font-size: 2rem;
+    margin-bottom: 20vh;
+}
