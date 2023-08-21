@@ -35,7 +35,7 @@ const Header = ({ title, logo, className }) => {
           ) : null}
           
           <Menu.Item key="/" onClick={handleMenuItemClick}>
-            <p >Acceuil</p>
+            <p >Accueil</p>
           </Menu.Item>
           <Menu.Item key="/About" onClick={handleMenuItemClick}>
             <p >L'atelier</p>

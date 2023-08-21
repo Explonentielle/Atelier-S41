@@ -5,7 +5,7 @@ const ProjetCard = ({ item }) => {
   const navigate = useNavigate()
 
   const handleClick = () => {
-    navigate(`/Process/${item.title}`)
+    navigate(`/Project/${item.title}`)
   }
   console.log(item.img)
 

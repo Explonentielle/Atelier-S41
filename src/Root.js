@@ -19,7 +19,7 @@ const Root = () => {
             <Route path="/Projets" element={<Projets/>} />
             <Route path="/Process" element={<Process/>} />
             <Route path="/Contact" element={<Contact/>} />
-            <Route exact path="/Process/:title" element={<ProjetDetails/>} />
+            <Route exact path="/Project/:title" element={<ProjetDetails/>} />
         </Routes>
     </BrowserRouter>
   )
