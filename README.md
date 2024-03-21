@@ -1,71 +1,55 @@
-# Getting Started with Create React App
+# Atelier S41 Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce portfolio représente le travail d'un architecte et met en valeur ses projets et compétences. Il a été développé en utilisant diverses technologies et bibliothèques pour offrir une expérience immersive aux visiteurs.
 
-## Available Scripts
+## Fonctionnalités
 
-In the project directory, you can run:
+1. **React.js** :
+   - Le site web est construit avec React.js, une bibliothèque JavaScript populaire pour la création d'interfaces utilisateur. React permet une gestion efficace des composants et de leur état, facilitant le développement.
 
-### `npm start`
+2. **Ant Design** :
+   - Ant Design est utilisé pour les composants d'interface utilisateur, offrant une bibliothèque complète de composants prêts à l'emploi pour un design moderne et intuitif.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **React Router** :
+   - React Router est utilisé pour la navigation côté client, permettant une expérience fluide lors de la transition entre différentes pages du portfolio.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **Redux** :
+   - Redux est utilisé pour la gestion de l'état global de l'application, facilitant le partage et la mise à jour des données entre les différents composants.
 
-### `npm test`
+5. **Sass** :
+   - Sass est utilisé pour la gestion des styles, offrant des fonctionnalités avancées telles que les variables, les mixins et les nested styles pour un CSS plus maintenable.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. **GSAP** :
+   - GSAP est utilisé pour les animations, offrant une solution robuste et performante pour créer des animations fluides et interactives.
 
-### `npm run build`
+7. **React Icons** :
+   - React Icons est utilisé pour l'intégration facile d'icônes dans le site web, offrant une large gamme d'icônes prêtes à l'emploi pour une interface utilisateur plus visuelle.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+8. **EmailJS** :
+   - EmailJS est utilisé pour la fonctionnalité de contact, permettant aux visiteurs de contacter l'architecte via un formulaire de contact intégré.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+9. **React Responsive Carousel** :
+   - React Responsive Carousel est utilisé pour afficher les projets de manière interactive et attrayante, permettant aux visiteurs de parcourir les projets facilement.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Utilisées
 
-### `npm run eject`
+- React.js
+- Ant Design
+- React Router
+- Redux
+- Sass
+- GSAP
+- React Icons
+- EmailJS
+- React Responsive Carousel
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Pour Commencer
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Pour démarrer avec ce projet :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clonez le dépôt.
+2. Installez les dépendances avec `npm install`.
+3. Lancez le serveur de développement avec `npm start`.
+4. Ouvrez [http://localhost:3000](http://localhost:3000) pour voir le portfolio dans votre navigateur.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Atelier-S41
+N'hésitez pas à explorer le code source et à le personnaliser selon vos besoins. Bon codage ! 🚀
